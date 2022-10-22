@@ -1,0 +1,1198 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrap {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	width: 1366px;
+	height: 80px;
+	margin: 0 auto;
+	background-color: black;
+	font-family: "MOON";
+}
+
+.logo {
+	width: 180px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 140px;
+	float: left;
+}
+
+.logo img {
+	width: 180px;
+	height: 50px;
+}
+
+
+
+
+
+.se input {
+	border: none;
+	border-bottom: 1px solid white;
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 330px;
+	color: white;
+	outline: none;
+	letter-spacing: 1px;
+    font-family: 'opificio';
+    font-size: 16px;
+}
+
+.log p {
+	float: right;
+	color: white;
+	padding-top: 30px;
+	padding-right: 145px;
+	font-family: 'opificio';
+	font-size: 20px;
+}
+
+.se button {
+	width: 30px;
+	height: 30px;
+	border: none;
+	background-color: black;
+	position: absolute;
+	right: 1px;
+	top: 5px;
+}
+
+.se img {
+	width: 25px;
+	height: 25px;
+}
+
+.se {
+	width: 330px;
+	height: 40px;
+	cursor: pointer;
+	position: relative;
+	margin-left: 200px;
+	margin-top: 20px;
+	float: left;
+}
+
+
+.log img {
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin-top: 27px;
+	margin-right: 30px;
+}
+
+
+.nav {
+	width: 1366px;
+	height: 40px;
+	background-color: #fffa4d;
+	margin: 0 auto;
+}
+
+.loca {
+	width: 700px;
+	height: 40px;
+	float: left;
+}
+
+.loca ul {
+	padding-left: 110px;
+	padding-top: 10px;
+}
+
+.loca ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+	font-family: "MOON";
+	font-size: 18px;
+}
+
+.loca ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.loca ul li:nth-child(1) {
+	cursor: pointer;
+}
+
+.loca ul li:nth-child(1)::after {
+	height: 2px;
+	content: "";
+	display: block;
+	background-color: black;
+	transition: 300ms;
+	transform: scale(0);
+	margin-top: 1px;
+}
+
+.loca ul li:nth-child(2)::after {
+	height: 2px;
+	content: "";
+	display: block;
+	background-color: black;
+	transition: 300ms;
+	transform: scale(0);
+	margin-top: 1px;
+}
+
+.loca ul li:nth-child(1):hover::after {
+	transform: scale(1.1);
+}
+
+.loca ul li:nth-child(3)::after {
+	height: 2px;
+	content: "";
+	display: block;
+	background-color: black;
+	transition: 300ms;
+	transform: scale(0);
+	margin-top: 1px;
+}
+
+.loca ul li:nth-child(3):hover::after {
+	transform: scale(1.1);
+}
+
+.loca ul li:nth-child(4)::after {
+	height: 2px;
+	content: "";
+	display: block;
+	background-color: black;
+	transition: 300ms;
+	transform: scale(0);
+	margin-top: 1px;
+}
+
+.loca ul li:nth-child(4):hover::after {
+	transform: scale(1.1);
+}
+
+.loca ul li:nth-child(5)::after {
+	height: 2px;
+	content: "";
+	display: block;
+	background-color: black;
+	transition: 300ms;
+	transform: scale(0);
+	margin-top: 1px;
+}
+
+.loca ul li:nth-child(5):hover::after {
+	transform: scale(1.1);
+}
+
+.loca ul li:nth-child(2):hover::after {
+	transform: scale(1.1);
+}
+
+.loca ul li:nth-child(2) {
+	cursor: pointer;
+}
+
+.loca ul li:nth-child(3) {
+	cursor: pointer;
+}
+
+.loca ul li:nth-child(4) {
+	cursor: pointer;
+}
+
+.loca ul li:nth-child(5) {
+	cursor: pointer;
+}
+
+.loca ul li:nth-child(6) {
+	cursor: pointer;
+}
+
+
+.locic {
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 140px;
+	margin-top: 5px;
+}
+
+.locic img {
+	width: 30px;
+	height: 30px;
+}
+
+.locic img:active {
+	width: 27px;
+	height: 27px;
+	transition: .4s;
+}
+
+.loc {
+	width: 50px;
+	height: 30px;
+	position: relative;
+	right: 6px;
+	top: 9px;
+	/* background-color: #01d042; */
+	float: right;
+	text-align: end;
+}
+
+.loc {
+	width: 120px;
+	height: 25px;
+	/* border-bottom: 2px solid black; */
+	font-family: 'opificio';
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.banner {
+	width: 1366px;
+	height: 775px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.banner img {
+	width: 1366px;
+	height: 775px;
+}
+
+.ar button {
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+}
+
+.ar {
+	border-radius: 5px;
+	border: none;
+	background-color: #b4b4b4;
+	position: absolute;
+	top: 350px;
+	left: 20px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.ar:hover {
+	transform: scale(1.2);
+}
+
+.ar img {
+	width: 30px;
+	height: 30px;
+}
+
+.arr button {
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+}
+
+.arr {
+	border-radius: 5px;
+	border: none;
+	background-color: #b4b4b4;
+	position: absolute;
+	top: 350px;
+	right: 20px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.arr:hover {
+	transform: scale(1.2);
+}
+
+.arr img {
+	width: 30px;
+	height: 30px;
+}
+
+.content {
+	width: 1366px;
+	background-color: black;
+	margin: 0 auto;
+}
+
+.parta h3 {
+	width: 1000px;
+	margin-top: 30px;
+	margin-left: 140px;
+	float: left;
+	color: white;
+	font-family: "MOON";
+	font-size: 18px;
+}
+
+.parta img {
+	width: 25px;
+	height: 25px;
+	float: right;
+}
+
+.parta button {
+	border-radius: 5px;
+	border: none;
+	background-color: #1b1b1b;
+	padding: 5px;
+	margin-top: 27px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.house {
+	width: 1366px;
+}
+
+.box {
+	width: 250px;
+	height: 420px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	margin-left: 140px;
+	margin-top: 30px;
+	transition: 1s;
+}
+
+.box img {
+	width: 250px;
+	height: 350px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.txt p {
+	padding-top: 12px;
+	padding-left: 7px;
+	color: white;
+	font-family: "MOON";
+	font-size: 18px;
+}
+
+.yelllow b {
+	font-family: "MOON";
+	font-size: 18px;
+}
+
+.yelllow {
+	width: 80px;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	background-color: #fffa4d;
+	position: absolute;
+	top: 365px;
+	left: 160px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.yelllow:hover {
+	transform: scale(1.1);
+}
+
+
+.boxx {
+	width: 250px;
+	height: 420px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	margin-left: 164px;
+	margin-top: 30px;
+}
+
+.boxx img {
+	width: 250px;
+	height: 350px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.yelloww {
+	width: 80px;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	background-color: #fffa4d;
+	position: absolute;
+	top: 365px;
+	left: 160px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.yelloww:hover {
+	transform: scale(1.1);
+}
+
+.yelloww b {
+	font-family: "MOON";
+	font-size: 18px;
+}
+
+.boxxx {
+	width: 250px;
+	height: 420px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	margin-left: 164px;
+	margin-top: 30px;
+}
+
+.boxxx img {
+	width: 250px;
+	height: 350px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.yellowww {
+	width: 80px;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	background-color: #fffa4d;
+	position: absolute;
+	top: 365px;
+	left: 160px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.yellowww:hover {
+	transform: scale(1.1);
+}
+
+.yellowww b {
+	font-family: "MOON";
+	font-size: 18px;
+}
+
+.partb h3 {
+	width: 1000px;
+	margin-top: 38px;
+	margin-left: 140px;
+	float: left;
+	color: white;
+	font-family: "MOON";
+}
+
+.partb img {
+	width: 25px;
+	height: 25px;
+	float: right;
+}
+
+.partb button {
+	border-radius: 5px;
+	border: none;
+	background-color: #1b1b1b;
+	padding: 5px;
+	margin-top: 35px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.ban {
+	width: 1366px;
+}
+
+.banne {
+	margin-top: 30px;
+	position: relative;
+}
+
+.banne img {
+	width: 1366px;
+	height: 580px;
+}
+
+.gray {
+	width: 90px;
+	height: 60px;
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 470px;
+	left: 70px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.gray p {
+	padding-top: 10px;
+	padding-left: 5px;
+	font-family: "MOON";
+	font-size: 18px;
+	text-align: center;
+	color: white;
+}
+
+.gray a {
+	text-decoration: none;
+}
+
+.yell {
+	width: 90px;
+	height: 60px;
+	background-color: #fffa4d;
+	position: absolute;
+	top: 470px;
+	left: 350px;
+	border-radius: 10px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.yell:hover {
+	transform: scale(1.1);
+}
+
+.yell b {
+	padding-top: 12px;
+	padding-left: 5px;
+	text-align: center;
+	font-family: "MOON";
+	font-size: 18px;
+}
+
+
+.partc h3 {
+	width: 1000px;
+	margin-top: 36px;
+	margin-left: 140px;
+	float: left;
+	color: white;
+	font-family: "moon";
+}
+
+.partc img {
+	width: 25px;
+	height: 25px;
+	float: right;
+}
+
+.partc button {
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+	background-color: #1b1b1b;
+	margin-top: 33px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.boxy {
+	width: 260px;
+	height: 310px;
+	background-color: #fffa4d;
+	border-radius: 10px;
+	margin-top: 40px;
+	margin-left: 140px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.boxy:hover {
+	transform: scale(1.1);
+}
+
+.boxy img {
+	width: 260px;
+	height: 260px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.boxy p {
+	margin-left: 10px;
+	padding-top: 265px;
+	text-align: center;
+	font-family: "moon";
+	font-size: 17px;
+	color: black;
+}
+
+.boxy a {
+	text-decoration: none;
+}
+
+.boxyb {
+	width: 260px;
+	height: 310px;
+	background-color: #fffa4d;
+	border-radius: 10px;
+	margin-top: 40px;
+	margin-left: 150px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.boxyb:hover {
+	transform: scale(1.1);
+}
+
+.boxyb img {
+	width: 260px;
+	height: 260px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.boxyb p {
+	margin-left: 10px;
+	padding-top: 265px;
+	text-align: center;
+	font-family: "moon";
+	font-size: 17px;
+	color: black;
+}
+
+.boxyb a {
+	text-decoration: none;
+}
+
+.boxya {
+	width: 260px;
+	height: 310px;
+	background-color: #fffa4d;
+	border-radius: 10px;
+	margin-top: 40px;
+	margin-left: 150px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.boxya:hover {
+	transform: scale(1.1);
+}
+
+.boxya img {
+	width: 260px;
+	height: 260px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.boxya p {
+	margin-right: 10px;
+	padding-top: 265px;
+	text-align: center;
+	font-family: "moon";
+	font-size: 17px;
+	color: black;
+}
+
+.boxya a {
+	text-decoration: none;
+}
+
+.boxy,
+.boxya,
+.boxyb {
+	display: inline-block;
+}
+
+.partd {
+	margin-top: 40px;
+	width: 1366px;
+	height: 50px;
+}
+
+.partd h3 {
+	color: white;
+	margin-left: 100px;
+	float: left;
+	margin-top: 20px;
+	font-family: "moon";
+}
+
+.firsthr hr {
+	border: 1px solid #fffa4d;
+	float: left;
+	width: 550px;
+	margin-top: 30px;
+}
+
+.sechr hr {
+	border: 1px solid #fffa4d;
+	float: right;
+	width: 550px;
+	margin-top: 30px;
+}
+
+
+
+.parte {
+	width: 1366px;
+	height: 490px;
+}
+
+.bo {
+	width: 450px;
+	height: 380px;
+	float: left;
+	margin-left: 140px;
+	margin-top: 50px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.bo:hover {
+	transform: scale(1.1);
+}
+
+.bo img {
+	width: 450px;
+	height: 380px;
+	border-radius: 15px;
+}
+
+.boo {
+	width: 450px;
+	height: 380px;
+	float: right;
+	margin-right: 140px;
+	margin-top: 50px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.boo:hover {
+	transform: scale(1.1);
+}
+
+.boo img {
+	width: 450px;
+	height: 380px;
+	border-radius: 15px;
+}
+
+hr {
+	border: 1px solid #fffa4d;
+	width: 1366px;
+}
+
+
+
+
+
+.partf h3 {
+	width: 1000px;
+	margin-top: 53px;
+	margin-left: 140px;
+	float: left;
+	color: white;
+	font-family: "moon";
+}
+
+.partf img {
+	width: 25px;
+	height: 25px;
+	float: right;
+}
+
+.partf button {
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+	background-color: #1b1b1b;
+	margin-top: 50px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.partf {
+	width: 1366px;
+	height: 620px;
+	position: relative;
+}
+
+.up {
+	height: 420px;
+	width: 250px;
+	background-color: #fffa4d;
+	border-radius: 10px;
+	position: absolute;
+	top: 130px;
+	left: 140px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.up:hover {
+	transform: scale(1.1);
+}
+
+.up img {
+	width: 250px;
+	height: 350px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.up p {
+	padding-top: 355px;
+	text-align: center;
+	font-family: "moon";
+	font-size: 18px;
+}
+
+.brown {
+	width: 250px;
+	height: 35px;
+	background-color: #1b1b1b;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-top: 2px;
+
+}
+
+.brown p {
+	color: white;
+	margin-left: 10px;
+	padding-top: 7px;
+	font-family: "moon";
+	font-size: 18px;
+}
+
+.down {
+	height: 430px;
+	width: 250px;
+	background-color: #fffa4d;
+	border-radius: 10px;
+	position: absolute;
+	top: 130px;
+	left: 560px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.down:hover {
+	transform: scale(1.1);
+}
+
+.down img {
+	width: 250px;
+	height: 350px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.down p {
+	margin-left: 5px;
+	padding-top: 357px;
+	text-align: center;
+	font-family: "moon";
+	font-size: 18px;
+}
+
+.bowny {
+	width: 250px;
+	height: 35px;
+	background-color: #1b1b1b;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-top: 2px;
+
+}
+
+.bowny p {
+	color: white;
+	margin-left: 10px;
+	padding-top: 7px;
+	font-family: "moon";
+	font-size: 18px;
+}
+
+.right {
+	height: 430px;
+	width: 250px;
+	background-color: #fffa4d;
+	border-radius: 10px;
+	position: absolute;
+	top: 130px;
+	right: 140px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.right:hover {
+	transform: scale(1.1);
+}
+
+.right img {
+	width: 250px;
+	height: 350px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.right p {
+	margin-left: 10px;
+	padding-top: 365px;
+	text-align: center;
+	font-family: "moon";
+	font-size: 18px;
+}
+
+.bownyy {
+	width: 250px;
+	height: 35px;
+	background-color: #1b1b1b;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-top: 12px;
+}
+
+.bownyy p {
+	color: white;
+	margin-left: 10px;
+	padding-top: 7px;
+}
+
+.chat img {
+	width: 90px;
+	height: 65px;
+	margin-top: 410px;
+	margin-right: 20px;
+	transition: 0.1s;
+}
+
+.chat img:hover {
+	transform: scale(1.1);
+}
+
+
+
+
+
+
+.footer {
+	height: 300px;
+	width: 1366px;
+	background-color: #fffa4d;
+	margin: 0 auto;
+	position: relative;
+}
+
+.foota h2 {
+	font-family: "moon";
+}
+
+.footb h2 {
+	font-family: "moon";
+}
+
+.footc h2 {
+	font-family: "moon";
+	margin-left: 40px;
+}
+
+.footd h2 {
+	font-family: "moon";
+}
+
+.foota {
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	top: 20px;
+	left: 140px;
+}
+
+.foota ul {
+	margin-top: 20px;
+}
+
+.foota ul li {
+	list-style: none;
+	cursor: pointer;
+	font-family: "moon";
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.foota ul li:hover {
+	text-decoration: underline;
+}
+
+.foota a {
+	text-decoration: none;
+	color: black;
+}
+
+.footb {
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	top: 20px;
+	left: 440px;
+}
+
+.footb ul {
+	margin-top: 20px;
+}
+
+.footb ul li {
+	list-style: none;
+	cursor: pointer;
+	font-family: "moon";
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.footb ul li:hover {
+	text-decoration: underline;
+}
+
+.footb a {
+	text-decoration: none;
+	color: black;
+}
+
+.fb {
+	width: 30px;
+	height: 30px;
+}
+
+.you {
+	width: 37px;
+	height: 27px;
+}
+
+.twitter {
+	width: 47px;
+	height: 33px;
+}
+
+.insta {
+	width: 30px;
+	height: 30px;
+}
+
+.footc ul li {
+	display: inline-block;
+	margin-right: 5px;
+	transition: 500ms;
+}
+
+.footc ul li:hover {
+	transform: scale(1.2);
+}
+
+.footc ul {
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.footc {
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	top: 20px;
+	left: 720px;
+}
+
+.mail {
+	width: 240px;
+	height: 40px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.mail input {
+	border-color: black;
+	border-radius: 10px;
+	background-color: #fffa4d;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 200px;
+	outline: none;
+}
+
+.tick{
+	font-size: 20px;
+	z-index: 0;
+	height: 20px;
+	width: 20px;
+	color: green;
+	position: absolute;
+	top: 8px;
+	right: 1px;
+}
+
+.mail img {
+	width: 35px;
+	height: 25px;
+	position: absolute;
+	top: 5px;
+	right: 30px;
+}
+
+.mail button {
+	border: none;
+	cursor: pointer;
+}
+
+.footd {
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	top: 20px;
+	right: 120px;
+	text-align: center;
+}
+
+.footd button {
+	background-color: #fffa4d;
+	border: none;
+	margin-top: 20px;
+}
+
+.h2 {
+	margin-top: 50px;
+	margin-left: -5px;
+}
+
+.footd img {
+	width: 185px;
+	height: 130px;
+	transition: 500ms;
+}
+
+.footd img:hover {
+	transform: scale(1.1);
+}
+
+.footer p {
+	position: absolute;
+	top: 280px;
+	left: 470px;
+	font-family: "MOON";
+	font-size: 18px;
+}

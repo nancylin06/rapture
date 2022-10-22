@@ -1,0 +1,1422 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrap {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	width: 1366px;
+	height: 80px;
+	margin: 0 auto;
+	background-color: black;
+	font-family: "MOON";
+}
+
+.logo {
+	width: 180px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 140px;
+	float: left;
+}
+
+.logo img {
+	width: 180px;
+	height: 50px;
+}
+
+
+
+
+
+.se input {
+	border: none;
+	border-bottom: 1px solid white;
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 330px;
+	color: white;
+	outline: none;
+	letter-spacing: 1px;
+	font-family: 'opificio';
+	font-size: 16px;
+}
+
+.log p {
+	float: right;
+	color: white;
+	padding-top: 30px;
+	padding-right: 145px;
+	font-family: 'opificio';
+	font-size: 20px;
+}
+
+.se button {
+	width: 30px;
+	height: 30px;
+	border: none;
+	background-color: black;
+	position: absolute;
+	right: 1px;
+	top: 5px;
+}
+
+.se img {
+	width: 25px;
+	height: 25px;
+}
+
+.se {
+	width: 330px;
+	height: 40px;
+	cursor: pointer;
+	position: relative;
+	margin-left: 200px;
+	margin-top: 20px;
+	float: left;
+}
+
+
+
+
+
+.log img {
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin-top: 27px;
+	margin-right: 30px;
+}
+
+
+
+
+.nav {
+	width: 1366px;
+	height: 40px;
+	background-color: #fffa4d;
+	margin: 0 auto;
+}
+
+.loca {
+	width: 700px;
+	height: 40px;
+	float: left;
+}
+
+.loca ul {
+	padding-left: 110px;
+	padding-top: 10px;
+}
+
+.loca ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+	font-family: "MOON";
+	font-size: 18px;
+}
+
+.loca ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.loca ul li:nth-child(1) {
+	cursor: pointer;
+}
+
+.loca ul li:nth-child(2) {
+	cursor: pointer;
+}
+
+.loca ul li:nth-child(3) {
+	cursor: pointer;
+}
+
+.loca ul li:nth-child(4) {
+	cursor: pointer;
+}
+
+.loca ul li:nth-child(5) {
+	cursor: pointer;
+}
+
+.loca ul li:nth-child(6) {
+	cursor: pointer;
+}
+
+.loca ul li:nth-child(1)::after {
+	height: 2px;
+	content: "";
+	display: block;
+	background-color: black;
+	transition: 300ms;
+	transform: scale(0);
+	margin-top: 1px;
+}
+
+.loca ul li:nth-child(2)::after {
+	height: 2px;
+	content: "";
+	display: block;
+	background-color: black;
+	transition: 300ms;
+	transform: scale(0);
+	margin-top: 1px;
+}
+
+.loca ul li:nth-child(1):hover::after {
+	transform: scale(1.1);
+}
+
+.loca ul li:nth-child(3)::after {
+	height: 2px;
+	content: "";
+	display: block;
+	background-color: black;
+	transition: 300ms;
+	transform: scale(0);
+	margin-top: 1px;
+}
+
+.loca ul li:nth-child(3):hover::after {
+	transform: scale(1.1);
+}
+
+.loca ul li:nth-child(4)::after {
+	height: 2px;
+	content: "";
+	display: block;
+	background-color: black;
+	transition: 300ms;
+	transform: scale(0);
+	margin-top: 1px;
+}
+
+.loca ul li:nth-child(4):hover::after {
+	transform: scale(1.1);
+}
+
+.loca ul li:nth-child(5)::after {
+	height: 2px;
+	content: "";
+	display: block;
+	background-color: black;
+	transition: 300ms;
+	transform: scale(0);
+	margin-top: 1px;
+}
+
+.loca ul li:nth-child(5):hover::after {
+	transform: scale(1.1);
+}
+
+.loca ul li:nth-child(2):hover::after {
+	transform: scale(1.1);
+}
+
+
+.locic {
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 140px;
+	margin-top: 5px;
+}
+
+.locic img {
+	width: 30px;
+	height: 30px;
+}
+
+.locic img:active {
+	width: 27px;
+	height: 27px;
+	transition: .4s;
+}
+
+.loc {
+	width: 50px;
+	height: 30px;
+	position: relative;
+	right: 6px;
+	top: 9px;
+	/* background-color: #01d042; */
+	float: right;
+	text-align: end;
+}
+
+.loc {
+	width: 120px;
+	height: 25px;
+	/* background-color: #fffa4d; */
+	/* outline: none; */
+	/* border-bottom: 2px solid black; */
+	font-family: 'opificio';
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+
+
+.banner {
+	width: 1366px;
+	height: 775px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.banner img {
+	width: 1366px;
+	height: 775px;
+}
+
+.ar button {
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+}
+
+.ar {
+	border-radius: 5px;
+	border: none;
+	background-color: #b4b4b4;
+	position: absolute;
+	top: 350px;
+	left: 20px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.ar:hover {
+	transform: scale(1.2);
+}
+
+.ar img {
+	width: 30px;
+	height: 30px;
+}
+
+.arr button {
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+}
+
+.arr {
+	border-radius: 5px;
+	border: none;
+	background-color: #b4b4b4;
+	position: absolute;
+	top: 350px;
+	right: 20px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.arr:hover {
+	transform: scale(1.2);
+}
+
+.arr img {
+	width: 30px;
+	height: 30px;
+}
+
+
+.content {
+	width: 1366px;
+	background-color: black;
+	margin: 0 auto;
+}
+
+.partz {
+	width: 1366px;
+	height: 50px;
+	padding-top: 50px;
+}
+
+.partz h3 {
+	color: white;
+	margin-left: 140px;
+	font-family: "moon";
+}
+
+.partx {
+	width: 1366px;
+	height: 50px;
+	padding-top: 50px;
+	position: relative;
+}
+
+.partx h3 {
+	width: 150px;
+	height: 50px;
+	color: white;
+	margin-left: 140px;
+	font-family: "moon";
+	float: left;
+}
+
+.partx img {
+	width: 25px;
+	height: 25px;
+}
+
+.party img {
+	width: 25px;
+	height: 25px;
+}
+
+.arrowa {
+	border-radius: 5px;
+	border: none;
+	background-color: #1b1b1b;
+	padding: 5px;
+	top: 40px;
+	right: 190px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.arrowb {
+	border-radius: 5px;
+	border: none;
+	background-color: #1b1b1b;
+	padding: 5px;
+	top: 40px;
+	right: 140px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.party {
+	width: 1366px;
+	height: 50px;
+	padding-top: 50px;
+	position: relative;
+}
+
+.party h3 {
+	color: white;
+	margin-left: 140px;
+	font-family: "moon";
+	float: left;
+}
+
+.parta {
+	width: 1366px;
+	height: 310px;
+}
+
+.one {
+	width: 300px;
+	height: 220px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	margin-left: 140px;
+	margin-top: 40px;
+	opacity: 60%;
+	float: left;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.boxa img {
+	width: 140px;
+	height: 220px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.boxa p {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	font-family: "moon";
+}
+
+.icon img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 40px;
+	right: 120px;
+}
+
+.icon p {
+	color: white;
+	font-family: "moon";
+	font-size: 17px;
+	position: absolute;
+	top: 40px;
+	right: 90px;
+}
+
+.ico img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 40px;
+	right: 15px;
+}
+
+.text p {
+	font-family: "opificio";
+	font-size: 14px;
+	position: absolute;
+	top: 90px;
+	right: 5px;
+	color: white;
+}
+
+.view p {
+	font-family: "moon";
+	position: absolute;
+	top: 190px;
+	right: 10px;
+}
+
+.view a {
+	color: #fffa4d;
+	text-decoration-color: #fffa4d;
+}
+
+.view a:hover {
+	text-decoration-color: white;
+	color: white;
+}
+
+.vieww a:hover {
+	text-decoration-color: white;
+	color: white;
+}
+
+.viewww a:hover {
+	text-decoration-color: white;
+	color: white;
+}
+
+.two {
+	width: 410px;
+	height: 270px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	margin-left: 40px;
+	margin-top: 20px;
+	float: left;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.two:hover {
+	transform: scale(1.1);
+}
+
+.one:hover {
+	transform: scale(1.1);
+}
+
+.three:hover {
+	transform: scale(1.1);
+}
+
+.boxb img {
+	width: 180px;
+	height: 270px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.boxb p {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 140px;
+	font-family: "moon";
+}
+
+.iconn img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 40px;
+	right: 185px;
+}
+
+.iconn p {
+	color: white;
+	font-family: "moon";
+	font-size: 17px;
+	position: absolute;
+	top: 40px;
+	right: 155px;
+}
+
+.icoo img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 40px;
+	right: 15px;
+}
+
+.txt p {
+	font-family: "opificio";
+	font-size: 15px;
+	position: absolute;
+	top: 100px;
+	right: 30px;
+	color: white;
+}
+
+.vieww p {
+	font-family: "moon";
+	position: absolute;
+	top: 230px;
+	right: 10px;
+}
+
+.vieww a {
+	color: #fffa4d;
+	text-decoration-color: #fffa4d;
+}
+
+
+
+.three {
+	width: 300px;
+	height: 220px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	margin-right: 140px;
+	margin-top: 40px;
+	opacity: 60%;
+	float: right;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.boxc img {
+	width: 140px;
+	height: 220px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.boxc p {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	font-family: "moon";
+}
+
+.iconnn img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 40px;
+	right: 120px;
+}
+
+.iconnn p {
+	color: white;
+	font-family: "moon";
+	font-size: 17px;
+	position: absolute;
+	top: 40px;
+	right: 90px;
+}
+
+.icooo img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 40px;
+	right: 15px;
+}
+
+.txtt p {
+	font-family: "opificio";
+	font-size: 14px;
+	position: absolute;
+	top: 90px;
+	right: 5px;
+	color: white;
+}
+
+.viewww p {
+	font-family: "moon";
+	position: absolute;
+	top: 190px;
+	right: 10px;
+}
+
+.viewww a {
+	color: #fffa4d;
+	text-decoration-color: #fffa4d;
+}
+
+.partb {
+	width: 1366px;
+	height: 80px;
+}
+
+.chat img {
+	width: 90px;
+	height: 65px;
+	margin-left: 1270px;
+	transition: 0.1s;
+}
+
+.chat img:hover {
+	transform: scale(1.1);
+}
+
+.partc {
+	width: 1366px;
+	height: 400px;
+	padding-top: 20px;
+}
+
+.partd {
+	width: 1366px;
+	height: 400px;
+	padding-top: 20px;
+}
+
+.boxd {
+	width: 220px;
+	height: 370px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	margin-left: 140px;
+	transition: 1s;
+}
+
+.boxd:hover {
+	transform: scale(1.1);
+}
+
+.boxd img {
+	width: 220px;
+	height: 300px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.txtd p {
+	padding-top: 5px;
+	padding-left: 7px;
+	color: white;
+	font-family: "MOON";
+	font-size: 17px;
+}
+
+.icond img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 340px;
+	right: 190px;
+}
+
+.icond p {
+	color: white;
+	font-family: "moon";
+	font-size: 17px;
+	position: absolute;
+	top: 340px;
+	right: 160px;
+}
+
+.yellowd {
+	background-color: #fffa4d;
+	height: 40px;
+	width: 90px;
+	border: none;
+	position: absolute;
+	top: 330px;
+	left: 130px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	cursor: pointer;
+}
+
+.yellowd b {
+	padding-top: 10px;
+	padding-left: 5px;
+	color: black;
+	font-family: "MOON";
+	font-size: 17px;
+}
+
+.boxe {
+	width: 220px;
+	height: 370px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	margin-left: 65px;
+	transition: 1s;
+}
+
+.boxe:hover {
+	transform: scale(1.1);
+}
+
+.boxe img {
+	width: 220px;
+	height: 300px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.txte p {
+	padding-top: 5px;
+	padding-left: 7px;
+	color: white;
+	font-family: "MOON";
+	font-size: 17px;
+}
+
+.icone img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 340px;
+	right: 190px;
+}
+
+.icone p {
+	color: white;
+	font-family: "moon";
+	font-size: 17px;
+	position: absolute;
+	top: 340px;
+	right: 160px;
+}
+
+.yellowe {
+	background-color: #fffa4d;
+	height: 40px;
+	width: 90px;
+	border: none;
+	position: absolute;
+	top: 330px;
+	left: 130px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	cursor: pointer;
+}
+
+.yellowe b {
+	padding-top: 10px;
+	padding-left: 5px;
+	color: black;
+	font-family: "MOON";
+	font-size: 17px;
+}
+
+.boxf {
+	width: 220px;
+	height: 370px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	margin-left: 65px;
+	transition: 1s;
+}
+
+.boxf:hover {
+	transform: scale(1.1);
+}
+
+.boxf img {
+	width: 220px;
+	height: 300px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.txtf p {
+	padding-top: 5px;
+	padding-left: 7px;
+	color: white;
+	font-family: "MOON";
+	font-size: 17px;
+}
+
+.iconf img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 340px;
+	right: 190px;
+}
+
+.iconf p {
+	color: white;
+	font-family: "moon";
+	font-size: 17px;
+	position: absolute;
+	top: 340px;
+	right: 160px;
+}
+
+.yellowf {
+	background-color: #fffa4d;
+	height: 40px;
+	width: 90px;
+	border: none;
+	position: absolute;
+	top: 330px;
+	left: 130px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	cursor: pointer;
+}
+
+.yellowf b {
+	padding-top: 10px;
+	padding-left: 5px;
+	color: black;
+	font-family: "MOON";
+	font-size: 17px;
+}
+
+.boxg {
+	width: 220px;
+	height: 370px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	margin-left: 65px;
+	transition: 1s;
+}
+
+.boxg:hover {
+	transform: scale(1.1);
+}
+
+.boxg img {
+	width: 220px;
+	height: 300px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.txtg p {
+	padding-top: 5px;
+	padding-left: 7px;
+	color: white;
+	font-family: "MOON";
+	font-size: 17px;
+}
+
+.icong img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 340px;
+	right: 190px;
+}
+
+.icong p {
+	color: white;
+	font-family: "moon";
+	font-size: 17px;
+	position: absolute;
+	top: 340px;
+	right: 160px;
+}
+
+.yellowg {
+	background-color: #fffa4d;
+	height: 40px;
+	width: 90px;
+	border: none;
+	position: absolute;
+	top: 330px;
+	left: 130px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	cursor: pointer;
+}
+
+.yellowg b {
+	padding-top: 10px;
+	padding-left: 5px;
+	color: black;
+	font-family: "MOON";
+	font-size: 17px;
+}
+
+
+.boxh {
+	width: 220px;
+	height: 370px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	margin-left: 140px;
+	transition: 1s;
+}
+
+.boxh:hover {
+	transform: scale(1.1);
+}
+
+.boxh img {
+	width: 220px;
+	height: 300px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.txth p {
+	padding-top: 5px;
+	padding-left: 7px;
+	color: white;
+	font-family: "MOON";
+	font-size: 17px;
+}
+
+.iconh img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 340px;
+	right: 190px;
+}
+
+.iconh p {
+	color: white;
+	font-family: "moon";
+	font-size: 17px;
+	position: absolute;
+	top: 340px;
+	right: 160px;
+}
+
+.icoh img {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 335px;
+	right: 15px;
+	cursor: pointer;
+}
+
+.icoh {
+	border: none;
+}
+
+.boxi {
+	width: 220px;
+	height: 370px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	margin-left: 65px;
+	transition: 1s;
+}
+
+.boxi:hover {
+	transform: scale(1.1);
+}
+
+.boxi img {
+	width: 220px;
+	height: 300px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.txti p {
+	padding-top: 5px;
+	padding-left: 7px;
+	color: white;
+	font-family: "MOON";
+	font-size: 17px;
+}
+
+.iconi img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 340px;
+	right: 190px;
+}
+
+.iconi p {
+	color: white;
+	font-family: "moon";
+	font-size: 17px;
+	position: absolute;
+	top: 340px;
+	right: 160px;
+}
+
+.icoi img {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 335px;
+	right: 15px;
+	cursor: pointer;
+}
+
+.icoi {
+	border: none;
+}
+
+.boxj {
+	width: 220px;
+	height: 370px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	margin-left: 65px;
+	transition: 1s;
+}
+
+.boxj:hover {
+	transform: scale(1.1);
+}
+
+.boxj img {
+	width: 220px;
+	height: 300px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.txtj p {
+	padding-top: 5px;
+	padding-left: 7px;
+	color: white;
+	font-family: "MOON";
+	font-size: 17px;
+}
+
+.iconj img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 340px;
+	right: 190px;
+}
+
+.iconj p {
+	color: white;
+	font-family: "moon";
+	font-size: 17px;
+	position: absolute;
+	top: 340px;
+	right: 160px;
+}
+
+.icoj img {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 335px;
+	right: 15px;
+	cursor: pointer;
+}
+
+.icoj {
+	border: none;
+}
+
+.boxk {
+	width: 220px;
+	height: 370px;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	margin-left: 65px;
+	transition: 1s;
+}
+
+.boxk:hover {
+	transform: scale(1.1);
+}
+
+.boxk img {
+	width: 220px;
+	height: 300px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.txtk p {
+	padding-top: 5px;
+	padding-left: 7px;
+	color: white;
+	font-family: "MOON";
+	font-size: 17px;
+}
+
+.iconk img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 340px;
+	right: 190px;
+}
+
+.iconk p {
+	color: white;
+	font-family: "moon";
+	font-size: 17px;
+	position: absolute;
+	top: 340px;
+	right: 160px;
+}
+
+.icok img {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 335px;
+	right: 15px;
+	cursor: pointer;
+}
+
+.icok {
+	border: none;
+}
+
+
+.footer {
+	height: 300px;
+	width: 1366px;
+	background-color: #fffa4d;
+	margin: 0 auto;
+	position: relative;
+}
+
+.foota h2 {
+	font-family: "moon";
+}
+
+.footb h2 {
+	font-family: "moon";
+}
+
+.footc h2 {
+	font-family: "moon";
+	margin-left: 40px;
+}
+
+.footd h2 {
+	font-family: "moon";
+}
+
+.foota {
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	top: 20px;
+	left: 140px;
+}
+
+.foota ul {
+	margin-top: 20px;
+}
+
+.foota ul li {
+	list-style: none;
+	cursor: pointer;
+	font-family: "moon";
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.foota ul li:hover {
+	text-decoration: underline;
+}
+
+.foota a {
+	text-decoration: none;
+	color: black;
+}
+
+.footb {
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	top: 20px;
+	left: 440px;
+}
+
+.footb ul {
+	margin-top: 20px;
+}
+
+.footb ul li {
+	list-style: none;
+	cursor: pointer;
+	font-family: "moon";
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.footb ul li:hover {
+	text-decoration: underline;
+}
+
+.footb a {
+	text-decoration: none;
+	color: black;
+}
+
+.fb {
+	width: 30px;
+	height: 30px;
+}
+
+.you {
+	width: 37px;
+	height: 27px;
+}
+
+.twitter {
+	width: 47px;
+	height: 33px;
+}
+
+.insta {
+	width: 30px;
+	height: 30px;
+}
+
+.footc ul li {
+	display: inline-block;
+	margin-right: 5px;
+	transition: 500ms;
+}
+
+.footc ul li:hover {
+	transform: scale(1.2);
+}
+
+.footc ul {
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.footc {
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	top: 20px;
+	left: 720px;
+}
+
+.mail {
+	width: 240px;
+	height: 40px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.mail input {
+	border-color: black;
+	border-radius: 10px;
+	background-color: #fffa4d;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 200px;
+	outline: none;
+}
+
+.tick {
+	font-size: 20px;
+	z-index: 0;
+	height: 20px;
+	width: 20px;
+	color: green;
+	position: absolute;
+	top: 8px;
+	right: 1px;
+}
+
+.mail img {
+	width: 35px;
+	height: 25px;
+	position: absolute;
+	top: 5px;
+	right: 30px;
+}
+
+.mail button {
+	border: none;
+	cursor: pointer;
+}
+
+.footd {
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	top: 20px;
+	right: 120px;
+	text-align: center;
+}
+
+.footd button {
+	background-color: #fffa4d;
+	border: none;
+	margin-top: 20px;
+}
+
+.h2 {
+	margin-top: 50px;
+	margin-left: -5px;
+}
+
+.footd img {
+	width: 185px;
+	height: 130px;
+	transition: 500ms;
+}
+
+.footd img:hover {
+	transform: scale(1.1);
+}
+
+.footer p {
+	position: absolute;
+	top: 280px;
+	left: 470px;
+	font-family: "MOON";
+	font-size: 18px;
+}
